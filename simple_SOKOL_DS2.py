@@ -9,7 +9,7 @@ device_name = 'dev0'
 
 ser = serial.Serial(port='/dev/' + ser_name, baudrate=19200)
 
-logger_path = '/home/polygon/Desktop/MS_DOS/' + device_name + '/'
+logger_path = '~/DS2_simple/' + device_name + '/'
 
 while True:
     date_now = datetime.datetime.now().strftime('%Y-%m-%d')

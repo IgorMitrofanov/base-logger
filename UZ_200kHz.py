@@ -7,7 +7,7 @@ import threading
 ser_name = 'ttyUSB2'
 ser = serial.Serial(port='/dev/' + ser_name, baudrate=19200, timeout=1)
 
-logger_path = '/home/polygon/Desktop/US_anemometr_200kHz/'
+logger_path = '~/US_anemometr_200kHz/'
 
 devices = [20]
 device_idx = 0

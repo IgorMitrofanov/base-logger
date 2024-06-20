@@ -9,7 +9,7 @@ device_name = 'SDVO1'
 
 ser = serial.Serial(ser_port, baudrate=19200, bytesize=8, stopbits=1, timeout=1)
 print(ser)
-logger_path = '/home/polygon/Desktop/' + device_name + '/'
+logger_path = '~/' + device_name + '/'
 
 TIMEOUT = 10
 while True:

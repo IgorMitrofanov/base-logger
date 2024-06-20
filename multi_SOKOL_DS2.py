@@ -6,7 +6,7 @@ import time
 ser_name = 'ttyUSB_DEVICE1' 
 ser = serial.Serial(port='/dev/' + ser_name, baudrate=19200, timeout=1)
 
-logger_path = '/home/polygon/Desktop/MS_DOS_NEW/'
+logger_path = '~/DS2_multi/'
 
 devices = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 

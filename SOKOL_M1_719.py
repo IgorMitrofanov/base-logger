@@ -12,7 +12,7 @@ instrument.serial.baudrate = 19200
 instrument.serial.bytesize = 8
 instrument.serial.stopbits = 1
 
-logger_path = '/home/polygon/Desktop/SOKOL_M1/' + device_name + '/'
+logger_path = '~/SOKOL_M1/' + device_name + '/'
 
 TIMEOUT = 1
 
